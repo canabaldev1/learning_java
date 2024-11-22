@@ -11,6 +11,21 @@ import java.util.Scanner;
  * @author lm-carlos
  */
 public class ejercicios {
+    
+    public static void ejercicio_5 () {
+        
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese un numero");
+        
+        int num = teclado.nextInt();
+        
+        double raizCalculado = funciones.raiz(num);
+        
+        System.out.println("la raiz de "+num+" es "+raizCalculado);
+        
+    }
+    
     public static void ejercicio_6 () {
     
         int numeroGenerado = funciones.numeroAleatorio();
@@ -79,20 +94,6 @@ public class ejercicios {
         } else {
             System.out.println("el factorial del numero "+" es "+factorialCalculado);
         }
-        
-    }
-    
-    public static void ejercicio_5 () {
-        
-        Scanner teclado = new Scanner(System.in);
-        
-        System.out.println("Ingrese un numero");
-        
-        int num = teclado.nextInt();
-        
-        double raizCalculado = funciones.raiz(num);
-        
-        System.out.println("la raiz de "+num+" es "+raizCalculado);
         
     }
     

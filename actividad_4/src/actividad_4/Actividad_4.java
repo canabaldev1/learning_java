@@ -16,8 +16,16 @@ public class Actividad_4 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        // ejercicios.ejercicio_1();
+        // ejercicios.ejercicio_6();
+        // ejercicios.ejercicio_7();
+        // ejercicios.ejercicio_9();
+        // ejercicios.ejercicio_10();
+        // ejercicios.ejercicio_11();
+        // ejercicios.ejercicio_13();
         // ejercicios.ejercicio_14();
-        ejercicios.ejercicio_13();
+        ejercicios.ejercicio_15();
+
         
     }
     
